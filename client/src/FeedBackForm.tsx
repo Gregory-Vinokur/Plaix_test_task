@@ -16,7 +16,7 @@ function FeedBackForm() {
     };
 
     try {
-      const response = await fetch('http://localhost:8000/feedback', {
+      const response = await fetch(`http://localhost:8000/feedback`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function FeedBackForm() {
         ></input>
         <input
           value={email}
-          type="mail"
+          type="email"
           required
           placeholder="E-mail"
           onChange={(e) => setEmail(e.target.value)}

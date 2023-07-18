@@ -1,5 +1,5 @@
 create TABLE feedback(
   name VARCHAR(255),
-  phone INTEGER,
+  phone BIGINT,
   email VARCHAR(255)
 )
