@@ -34,3 +34,7 @@ input {
   margin-bottom: 2rem;
   text-decoration: underline 2px solid orange;
 }
+
+button {
+  font-size: 1.8rem;
+}
